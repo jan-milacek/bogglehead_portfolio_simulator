@@ -1,6 +1,6 @@
-# Bogleheads Lazy Portfolios Simulator
+# Boggleheads Lazy Portfolios Simulator
 
-This is a simple simulator for analyzing and comparing popular "lazy portfolios" recommended in the Bogleheads investment community. The simulator uses historical price data from CSV files to show the performance of different portfolio strategies over time.
+This is a simple simulator for analyzing and comparing popular "lazy portfolios" recommended in the Boggleheads investment community. The simulator uses historical price data from CSV files to show the performance of different portfolio strategies over time.
 
 ## Project Structure
 
@@ -30,7 +30,7 @@ streamlit run app.py
 
 ## How It Works
 
-This program simulates the growth of different "lazy portfolio" strategies popularized in the Bogleheads community:
+This program simulates the growth of different "lazy portfolio" strategies popularized in the Boggleheads community:
 
 - Two-fund Portfolio (60% VT, 40% BND)
 - Taylor Larimore's Three-Fund Portfolio (34% VTI, 33% VXUS, 33% BND)

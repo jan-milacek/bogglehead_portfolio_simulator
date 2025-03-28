@@ -20,7 +20,7 @@ from csv_data_reader import (
 
 # Set page configuration
 st.set_page_config(
-    page_title="Bogleheads Lazy Portfolios Simulator",
+    page_title="Boggleheads Lazy Portfolios Simulator",
     page_icon="📈",
     layout="wide"
 )
@@ -90,13 +90,13 @@ def simulate_growth(portfolio_data, initial_investment, monthly_contribution):
     return investments
 
 def main():
-    st.title("Bogleheads Lazy Portfolios Simulator")
+    st.title("Boggleheads Lazy Portfolios Simulator")
     
     # Sidebar navigation
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Choose a page:", ["Portfolio Simulator", "Portfolio Comparison"])
+    page = st.sidebar.radio("Choose a page:", ["Portfolio growth simulator", "Portfolio comparison"])
     
-    if page == "Portfolio Simulator":
+    if page == "Portfolio growth simulator":
         st.header("Simulate Portfolio Growth")
         
         # Portfolio selection and parameters
@@ -249,7 +249,7 @@ def main():
                     else:
                         st.error("Error running simulation. Please try different parameters.")
     
-    elif page == "Portfolio Comparison":
+    elif page == "Portfolio comparison":
         st.header("Compare Portfolio Performance")
         
         # Get date range from test data

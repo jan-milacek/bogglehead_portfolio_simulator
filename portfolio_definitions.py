@@ -1,5 +1,5 @@
 """
-Portfolio and ETF definitions for the Bogleheads Lazy Portfolios Simulator.
+Portfolio and ETF definitions for the Boggleheads Lazy Portfolios Simulator.
 """
 
 # Define mapping from ETFs to CSV files

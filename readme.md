@@ -2,6 +2,11 @@
 
 This is a simple simulator for analyzing and comparing popular "lazy portfolios" recommended in the Boggleheads investment community. The simulator uses historical price data from CSV files to show the performance of different portfolio strategies over time.
 
+## Online Version
+
+You can use the online version of this simulator at:
+[https://bogglehead-portfolio-simulator.streamlit.app/](https://bogglehead-portfolio-simulator.streamlit.app/)
+
 ## Project Structure
 
 - `portfolio_definitions.py` - Contains definitions for portfolios, ETFs, and file mappings
